@@ -25,7 +25,6 @@
                 left: 35%;
                 width: 30%;
                 border: 2px solid #ed802d;
-                /* outline: #ed802d; */
             }
             
             input#submit {
@@ -65,8 +64,7 @@
             button:active {
                 background-color:#2f528f;
                 transform: translateY(2px);
-            }
-            
+            } 
         </style>
         <!-- <link rel=“stylesheet” href=“style.css” -->
         <title>
@@ -75,17 +73,16 @@
     </head>
     <body>
         <div class = "content">
-            <form>
+            <form class = "form">
                 <label for="name">NAME:</label><br>
-                <input type="text" id="name" name="name" placeholder="e.g. Roshan"><br><br>
+                <input type="text" id="name" name="name" placeholder="e.g. Ben"><br><br>
                 <label for="email">EMAIL:</label><br>
-                <input type="text" id="email" name="email" placeholder="e.g. mroshan5722@gmail.com"><br><br>
-                <label for="mobile">MOBILE NO:</label><br>
-                <input type="text" id="mobile" name="mobile" placeholder="e.g. +971 58 8741518"><br><br>
-                <!-- <input type="submit" id="submit"value="SUBMIT"><br><br> -->
+                <input type="email" id="email" name="email" placeholder="e.g. ben@dover.com"><br><br>
+                <label for="mobile"  onwheel="this.blur()">MOBILE NO:</label><br>
+                <input type="number" id="mobile" name="mobile" placeholder="e.g. +971 12 34567890"><br><br>
+                <input type="submit" id="submit"value="SUBMIT"><br><br>
             </form>
-            <button>SUBMIT</button><br>
-            <button><a href="leaderboard.html">Leaderboard</a></button>
         </div>
+        <!-- <script src="index.js"></script> -->
     </body>
 </html>
